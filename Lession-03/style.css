@@ -13,6 +13,9 @@
         height: 100%;
         font-family: 'Roboto', sans-serif;
         -webkit-font-smoothing: antialiased;
+        
+        /* Background gradient: */
+        background: linear-gradient(to right, rgb(223, 22, 172), orange);
       }
 
       body {
@@ -26,9 +29,6 @@
 
         /* Background por cor:
         background-color: #13111b;*/
-            
-        /* Background gradient: */
-        background-color: linear-gradient(to right, rgb(223, 22, 172), orange);
       }
 
       main {
