@@ -1,0 +1,109 @@
+      /* Cascating Stylesheet */
+      /* exemplo de código CSS aqui */
+
+      /* Seletor universal. */
+      * {
+        margin: 0%;
+      }
+
+      html, body {
+        /* Variável para cores. */
+        --grey: hsl(240, 9%, 89%);
+
+        height: 100%;
+        font-family: 'Roboto', sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      body {
+        display: grid;
+        place-items: center;
+        /*background-color: #13111b;*/
+      }
+
+      main {
+        background: url(images/background_vetor.png);
+        background-color: #13111b;
+        width: 375px;
+        height: 812px;        
+      }
+
+      .container {
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: var(--grey);
+      }
+
+      .avatar {
+        width: 10rem;
+        margin: 11.5rem auto 0;
+
+        /* Significa que agora, ele definie os limites dentro da classe avatar. */
+        position: relative;
+      }
+
+      .avatar span {
+        /* Permite que cria-se níveis de empilhamento de um elemento em relação a outro. */
+        position: absolute;
+        top: -15px;
+
+        /* Devido a configuração do clip-path, o posicionamento perder o nível empilhamento. Para que valide novamente o empilhamento, utiliza-se a propriedade abaixo: */
+        z-index: 1;
+      }
+
+      /* > Este sinal, indica que irá buscar, dentro da classe avatar, o maior nível do elemento img. */
+      .avatar > img {
+        width: 10rem;
+        height: 11.5rem;
+
+        /*A propriedade abaixo, faz com que a imagem do elemento, se enquadre dentro das proporções ditadas acima.*/
+        object-fit: cover;
+
+        clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+      }
+
+      h1 {
+        font-size: 1.5rem;
+        color: #5a4b68;
+        margin-top: 1.5rem;
+      }
+
+      a {
+        color: var(--grey);
+        text-decoration: none;
+        margin-top: 0.25rem;
+        display: flex;
+        gap: 0.75rem;
+        justify-content: center;
+        align-items: center;
+      }
+
+      p {
+        margin-top: 2rem;
+      }
+
+      ul {
+        margin-top: 4rem;
+        list-style: none;
+        padding: 0;
+
+        /* A propriedade display:flex reorganiza os itens horizontalmente lado a lado. */
+        display: flex;
+
+        /* Espaçamento entre os itens. */
+        gap: 0.5rem;
+
+        /* Alinhamento central do flex */
+        justify-content: center;
+      }
+
+      li a {
+        background: #5a4b68;
+        width: 35px;
+        height: 35px;
+        /*border: 2px;
+        border-style: solid;
+        border-color: #fd1e7f;*/
+      }
