@@ -1,0 +1,136 @@
+<!--
+  HTML - HyperText Markup Language
+
+  HyperText - Hiper Texto. Ou seja, um texto com links.
+  Markup - Marcação. Tags.
+  Language - Regras de uma linguagem.
+-->
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Jehan Kheller - NLW 2021</title>
+
+    <!-- Referenciando uma folha de estilo -->
+    <link rel="stylesheet" href="../Aula 3/style.css" />
+
+    <!-- Referenciando uma fonte  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <main>
+      <div class="container">
+        <div class="avatar">
+          <span>
+            <img src="images/selo.svg" alt="Selo Rocketseat" />
+          </span>
+
+          <img src="images/avatar_pessoal.jfif" alt="Foto Pessoal" />
+        </div>
+        
+        <h1 id="userName" >Jehan Kheller</h1>
+
+        <a href="https://github.com/JehanKheller" target="_blank"><img src="images/github_icon.svg" alt="Ícone do GitHub" />JehanKheller</a>
+
+        <p>Um auto-didata focado em aprender e começar a programar para WEB.</p>
+
+        <ul id="socialLink" >
+          <!-- Para que o link não abra na mesma página, utlize o código abaixo: -->
+          <!-- target="_blank" -->
+          <!-- Desta forma, o link é direcionado para uma nova guia em branco.-->
+          <li class="facebook" >
+            <a href="https://www.facebook.com/maykbrito" target="_blank">
+              <img
+                src="images/facebook_icon.svg"
+                alt="Ícone do Facebook" />
+              </a>
+          </li>
+          <li class="instagram" >
+            <a href="https://www.instagram.com/maykbrito/" target="_blank">
+              <img
+                src="images/instagram_icon.svg"
+                alt="Ícone do Instagram" />
+            </a>
+          </li>
+          <li class="youtube" >
+            <a href="https://www.youtube.com/channel/maykbrito" target="_blank">
+              <img
+                src="images/youtube_icon.svg"
+                alt="Ícone do Youtube" />
+            </a>
+          </li>
+          <li class="twitter" >
+            <a href="https://twitter.com/maykbrito" target="_blank">
+              <img
+                src="images/twitter_icon.svg"
+                alt="Ícone do Twitter" />
+              </a>
+          </li>
+          <li class="linkedin" >
+            <a href="https://www.linkedin.com/in/maykbrito/" target="_blank">
+              <img
+                src="images/linkedin_icon.svg"
+                alt="Ícone do Linkedin" />
+            </a>
+          </li>
+        </ul>
+
+        <!--<a href="https://icons8.com/icon/102748/linkedin-2">LinkedIn 2 icon by Icons8</a>-->
+
+      </div>      
+    </main>
+
+    <script>
+      // Variáveis let - A variável do tipo let pode ter o valor alterado sempre que necessário.
+      // Variáveis const - A variável do tipo const não pode ter o valor alterado pois seu valor é constante.
+      
+      // Estrutura de uma função com variável pré definida.
+      /*function showMeSomething(text) {
+        alert(text)
+      }
+
+      // Chamar função.
+      showMeSomething();*/
+      
+      const userSocialMedia = {
+        // Dentro do objeto, usa-se : para atribuir valores a uma propriedade.
+
+        github: "JehanKheller",
+        youtube: "UCoBecj_4WQd7u5wb2Dsbv2A",
+        facebook: "khellerjehan",
+        instagram: "jehankheller",
+        twitter: "JehanKheller",
+        linkedin: "jehan-kheller-117805140"
+      }
+
+      function changeSocialMedia() {
+        // DOM - Document Object Model - Utilizado para mapear os objetos do navegador.
+
+        // Dentro do documento html, vou buscar um elemento do tipo ID nomeado.
+        // TextContent permite acesso o conteúdo do elemento.
+
+        document.getElementById('userName').textContent = "Zorro";
+        // O código abaixo representa a mesma função da linha de código acima, porque, o JS entende que um comando que acesse o DOM ou faça algum tipo de alteração é um ID já declarado do Documento HTML. Caso seja utilizado classes ou tag's, o código acima se faz necessário.
+        //userName.textContent = "JK";
+
+        for (let li of socialLink.children) {
+          const social = li.getAttribute('class');
+          li.children[0].href = `https://${social}.com/${userSocialMedia[social]}`;
+
+          //alert(social + " - " + li.children[0].href);
+          //alert(li.children[0].href);
+          //alert(social);
+        }
+
+      }
+
+      changeSocialMedia();
+
+    </script>
+
+  </body>
+</html>
