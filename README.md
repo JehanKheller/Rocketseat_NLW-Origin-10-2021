@@ -14,7 +14,7 @@ The technologies used for this project are:
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-# 📋 Project Track
+# 📋 Project Progress
 Below, you can access the page of each project developed in each lesson and enjoy the work:
 
 - 🌐 [Page Lession 01](https://jehankheller.github.io/NLW-Origin-10-2021/Lession-01/)
