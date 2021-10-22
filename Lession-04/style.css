@@ -21,14 +21,6 @@
       body {
         display: grid;
         place-items: center;
-        
-        /* Background por imagem:
-        background-image: url(images/background_full_2.jpg);
-        background-position: center;
-        background-size: cover;*/
-
-        /* Background por cor: 
-        background-color: #13111b;*/
       }
 
       main {
