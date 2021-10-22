@@ -21,3 +21,14 @@ Below, you can access the page of each project developed in each lesson and enjo
 - 🌐 [Page Lession 02](https://jehankheller.github.io/NLW-Origin-10-2021/Lession-02/)
 - 🌐 [Page Lession 03](https://jehankheller.github.io/NLW-Origin-10-2021/Lession-03/)
 - 🌐 [Page Lession 04](https://jehankheller.github.io/NLW-Origin-10-2021/Lession-04/)
+
+Or...
+Clone the repository to your machine:
+```
+git clone https://github.com/JehanKheller/NLW-Origin-10-2021.git
+```
+
+# ⚠️ License
+
+This project has an MIT License.
+For more details see the file 🧾 [LICENSE](https://github.com/JehanKheller/NLW-Origin-10-2021/blob/main/LICENSE.txt).
