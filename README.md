@@ -7,7 +7,7 @@ Project developed for web development learning purposes. Virtual badge created d
 
 ![image](https://user-images.githubusercontent.com/5993224/138517358-ad741af4-9c84-4111-a56f-7f1124d87ef0.png)
 
-# 📝 Thecnologies
+# 📝 Technologies
 The technologies used for this project are:
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
