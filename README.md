@@ -5,10 +5,10 @@ Application for beginners in HTML, CSS and JS. A week of great learning with the
 # 💻 Project
 Project developed for web development learning purposes. Virtual badge created during the NLW Heat, on the Origin track.
 
-Mobile Model:
+- Mobile Model:
 ![image](https://user-images.githubusercontent.com/5993224/138517358-ad741af4-9c84-4111-a56f-7f1124d87ef0.png)
 
-Desktop Model:
+- Desktop Model:
 ![desktop](https://user-images.githubusercontent.com/5993224/138578067-2142fe2a-47f4-4e74-8985-0b6216feb633.PNG)
 
 # 📝 Technologies
