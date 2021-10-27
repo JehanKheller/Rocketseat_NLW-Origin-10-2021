@@ -2,7 +2,7 @@
 Event produced by Rocketseat. Trail Origin.
 Application for beginners in HTML, CSS and JS. A week of great learning with the best Rockeseat teachers.
 
-# 💻 Project
+## 💻 Project
 Project developed for web development learning purposes. Virtual badge created during the NLW Heat, on the Origin track.
 
 - Mobile Model:
@@ -13,14 +13,14 @@ Project developed for web development learning purposes. Virtual badge created d
 
 ![desktop](https://user-images.githubusercontent.com/5993224/138578067-2142fe2a-47f4-4e74-8985-0b6216feb633.PNG)
 
-# 📝 Technologies
+## 📝 Technologies
 The technologies used for this project are:
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-# 📋 Project Progress
+## 📋 Project Progress
 Below, you can access the page of each project developed in each lesson and enjoy the work:
 
 - 🌐 [Page Lession 01](https://jehankheller.github.io/NLW-Origin-10-2021/Lession-01/)
@@ -34,7 +34,7 @@ Clone the repository to your machine:
 git clone https://github.com/JehanKheller/NLW-Origin-10-2021.git
 ```
 
-# 📋☑️ Project Finished
+## 📋☑️ Project Finished
 O projeto foi concluído englobando o modelo desktop e mobile.
 Confira abaixo o resultado clicando no link correspondente:
 
@@ -66,6 +66,6 @@ I recommend testing screen variations. Press F12 on your browser and test as sho
 
 ![mobile 320p](https://user-images.githubusercontent.com/5993224/138578507-c31ef711-43d0-4ea4-9c87-da324fab0668.PNG)
 
-# ⚠️ License
+## ⚠️ License
 This project has an MIT License.
 For more details see the file 🧾 [LICENSE](https://github.com/JehanKheller/NLW-Origin-10-2021/blob/main/LICENSE.txt).
