@@ -38,7 +38,7 @@ git clone https://github.com/JehanKheller/NLW-Origin-10-2021.git
 O projeto foi concluído englobando o modelo desktop e mobile.
 Confira abaixo o resultado clicando no link correspondente:
 
-- 🌐 [Challenge Project - Completed](https://jehankheller.github.io/NLW-Origin-10-2021/Lession-Desafio-Projeto-Final/)
+- 🌐 [Challenge Project - Completed](https://jehankheller.github.io/Rocketseat_NLW-Origin-10-2021/Lession-Desafio-Projeto-Final/)
 
 I recommend testing screen variations. Press F12 on your browser and test as shown below:
 
